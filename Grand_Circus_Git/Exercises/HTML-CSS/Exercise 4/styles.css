@@ -1,0 +1,45 @@
+div {
+    border: 1px solid black;
+    color: white;
+    font-size: 50px;
+    min-width: 250px;
+    min-height: 150px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: wrap;
+}
+
+span {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.red {
+    background-color: #f44336;
+}
+
+.orange {
+    background-color: #FF9800;
+}
+
+.yellow {
+    background-color: #FFEB3B;
+}
+
+.green {
+    background-color: #8BC34A;
+}
+
+.blue {
+    background-color: #2196F3;
+}
+
+.purple {
+    background-color: #9C27B0;
+}

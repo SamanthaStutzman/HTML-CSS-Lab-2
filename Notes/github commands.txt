@@ -1,0 +1,16 @@
+
+
+git clone <url>
+
+git add <file> <-A>     			(to add all)
+git commit -m "description of commit changes"
+git push
+
+git checkout <branch_name>        (to move to a different branch)
+git fetch
+git merge <other_branch>		(to merge two banches) 
+
+
+git remote rm origin 			(removes the origin)
+
+

@@ -1,0 +1,80 @@
+
+For Loops and Arrays
+
+
+
+//Type 1
+for (let i = 0, i < a.length, i++)
+
+
+
+//Type 2 - loops through items in array, gets 1, 2, 3 and sets them to variable "item"
+
+let array = {1, 2, 3]
+
+for (item of array) {
+console.log(item);
+}
+
+
+
+//Type 3 - loops through objects in array, gets "name, "value" etc.
+for (item in array) {
+name: "BJ"
+value: 1 
+}
+items [items] = "Bradley"
+
+
+
+//Type 4
+array.forEach ( item => {
+console.log (item);
+}
+
+
+
+
+
+
+
+
+
+
+BJ's NOTES
+
+
+
+// Basic For loop
+let ar = [1,2,3];
+for (let i = 0; i < ar.length; i++) {
+    console.log(`${i+1}.`)
+}
+
+
+
+// Loop through object
+let bj = {
+    name: 'BJ',
+    age: '?'
+};
+for (const iterator in bj) {
+    console.log(iterator, bj[iterator]);
+}
+
+
+
+// loop through arrays fancy
+for (let item of ar ) {
+    console.log(item, 'forof');
+}
+
+
+
+// foreach on array iterator
+ar.forEach( item => {
+    console.log(item, 'foreach');
+})
+
+
+

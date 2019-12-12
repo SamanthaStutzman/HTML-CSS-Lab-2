@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>DOM Exercise 2</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>   
+    <div class="outline">
+        
+        <form id="item-list-add">
+            <div class="padding">
+                <label>
+                    <h3>Name:</h3>
+                    <input type="text" name="name" id="item-to-add"/>
+                </label>
+            </div>
+            
+            <div class="padding">
+                <label>
+                    <h3>Type:</h3>
+                    <input type="radio" name="type" value="fruit" class="fruit-button"> Fruit
+                    <input type="radio" name="type" value="vegetable" class="veggie-button"> Vegetable
+                </label>
+            </div>
+            <div class="padding">
+                <button>Add</button>
+            </div>
+            
+        </form>     
+    </div>
+</div>
+
+<div class="flex">
+    <div class="padding">
+        <h3>Fruit</h3>
+        
+        <ol class="item-list-fruit">
+            <li>
+                First Item
+            </li>
+        </ol>
+    </div>
+    
+    <div class="padding">
+        <h3>Vegetable</h3>
+        
+        <ol class="item-list-veggie">
+            <li>
+                First Item
+            </li>
+        </ol>
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>

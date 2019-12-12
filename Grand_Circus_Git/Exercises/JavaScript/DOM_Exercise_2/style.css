@@ -1,0 +1,22 @@
+
+.outline {
+    border: 1px solid black;
+    padding: 15px;
+    max-width: 350px;
+}
+
+.padding {
+    padding: 10px;
+}
+
+label > h3 {
+    display: inline;
+}
+
+.flex {
+    display: flex;
+}
+
+.completed {
+    text-decoration: line-through;
+}

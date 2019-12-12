@@ -1,0 +1,33 @@
+body {
+    height: 200vh;
+}
+
+h1 {
+    background-color: #88dbdf;
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    text-align: center;
+    margin: 0px;
+}
+div {
+    border: black 1px solid;
+    color: #88dbdf;
+    position: relative;
+    margin: 65px 15px 15px 15px;
+    display: flex;
+    justify-content: center;
+}
+p {
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding: 15px;
+    margin: 0px;
+}
+img {
+    margin: 150px;
+    width: 50vw;
+}

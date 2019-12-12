@@ -1,0 +1,9 @@
+/**
+ * Get area of a circle.
+ * 
+ * @see        insert web link here
+ * @todo     Check to make sure that the number is a positive number type.
+ * @param   Number radius Radius of circle to measure.
+ * @return    Area of the circle
+ * 
+ */

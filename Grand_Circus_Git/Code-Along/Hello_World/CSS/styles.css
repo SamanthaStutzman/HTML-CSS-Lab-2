@@ -1,0 +1,36 @@
+p {
+    color: brown;
+}
+
+/* section styles */
+section {
+    border: 1px solid #000;
+    margin: 8px;
+}
+
+/* p styles with id of doggo-1 */
+p#doggo-1 {
+    color: rgb(42, 165, 79);
+}
+
+/* a pseudo selectors */
+a:link { /* unvisited link */
+    color: aliceblue;
+}
+a:visited { /* visited link */
+    color: darkblue;
+}
+a:hover { /* mouse over link */
+    color: lightblue;
+}
+a:active { /* mouse click link */
+    color: yellow;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+h2 {
+    font-size: 2em;
+}

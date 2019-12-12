@@ -1,0 +1,14 @@
+<form>
+            <label>
+                <input type="text" name="name" placeholder="Username" />
+                Username
+            </label>
+
+            <label>
+                <input type="text" name="pw" placeholder="Password" />
+                    Password
+            </label>
+
+            <button>Submit</button>
+
+</form>

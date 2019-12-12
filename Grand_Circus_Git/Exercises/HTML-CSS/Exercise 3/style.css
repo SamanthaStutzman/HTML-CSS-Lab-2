@@ -1,0 +1,67 @@
+* {
+    /* border: 2px solid cornflowerblue; */
+    margin: 5px;
+    padding: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+display: flex;
+flex-grow: 1;
+}
+
+article {
+    flex-grow: 3;
+}
+
+section {
+    flex-grow: 1;
+    background: lightgray;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background: grey;
+    color: white;
+}
+
+h1 {
+    flex-grow: 1;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    
+}
+
+.black {
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+span {
+    flex-grow: 1;
+}

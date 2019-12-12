@@ -1,0 +1,45 @@
+body {
+    background-color: teal;
+    width: 100vw;
+}
+
+form {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border-radius: 10px;
+    width: 550px;
+    height: 315px;
+    padding: 0px 20px;
+}
+
+h2 {
+   text-align: center;
+   padding-top: 25px; 
+}
+
+input {
+    width: 99%;
+    border:none;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+    margin-left: 200px;
+}

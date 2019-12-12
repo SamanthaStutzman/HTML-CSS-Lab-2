@@ -1,0 +1,21 @@
+// camelCase
+nameOfFunction();
+
+// don't use
+// snake case
+name_of_function();
+
+// kabob(kebab) case
+// not valid
+name-of-function();
+// <div class="class-name"></div>
+
+// hard to read, don't use it
+nameoffunction();
+
+// Used for classes
+// Title case
+NameOfFunction();
+
+// const
+const USER_NAME;

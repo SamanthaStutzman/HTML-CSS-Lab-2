@@ -1,0 +1,147 @@
+
+//while loop
+
+while(true) {
+    let randNumber = 5;///
+
+    if ( randNumber === 5 ) {
+        console.log('  equal ');
+        break;
+    } else {
+        console.log(' not equal');
+	break;
+    }
+
+}
+
+
+
+
+// for loop to sort through an array, forwards
+
+let a1 = ['TV1', 'TV2'];
+
+for(let i = 0; i<a1.length; i++) {
+    console.log(a1[i]);
+}
+
+
+// for loop to sort through an array, backwards
+
+let a1 = ['TV1', 'TV2'];
+
+for(let i = a1.length - 1; i>=a1.length; i--) {
+    console.log(a1[i]);
+}
+
+
+
+
+// while loop to sort an array
+
+let a1 = ['TV1', 'TV2', 'TV3'];
+let i = a1.length - 1;
+
+while (i >= 0) {
+    console.log(a1[i]);
+    i--;
+}
+
+
+
+
+
+// while loop until a break
+
+while (true) {
+
+    // Listen for input 
+
+    // When the user types in `exit`
+
+    break;
+
+}
+
+
+
+
+// while loop until a break
+
+let hungry = true;
+
+while (hungry) {
+    eatPizza();
+
+    if ( threwUp ) {
+        hungry = false;
+    }
+}
+
+
+
+
+// do-while loop 
+
+let hungry = true;
+
+let pizzaSlices = 0;
+while (hungry) {
+    console.log('I have eaten ' + pizzaSlices + 'in the while loop');
+
+    if ( pizzaSlices === 45 ) {
+        hungry = false;
+    }
+
+    pizzaSlices+=5;
+}
+
+hungry = true;
+pizzaSlices = 0;
+do {
+    console.log('I have eaten ' + pizzaSlices + 'in the do while loop');
+
+    if ( pizzaSlices === 45 ) {
+        hungry = false;
+    }
+
+    pizzaSlices+=5;
+} while(hungry)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
