@@ -17,6 +17,6 @@
     "karma-spec-reporter": "0.0.32"
   },
   "devDependencies": {
-    "karma": "^4.4.1"
+    "karma": "^6.3.14"
   }
 }
